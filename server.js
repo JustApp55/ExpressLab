@@ -55,9 +55,7 @@ app.engine('hypatia', (filePath, options, callback) => { // define the view engi
     res.render('template', { title: 'PCt ', message: 'Probate Court ', content: 'When a person dies, his or her bills become what?' })
   })
   
-  app.get('/favPet', (req, res) => {
-    res.render('template2', { title: ' ', message: ' ', content: ' ' })
-  })
+  
 
   // app.get('/htw', (req, res) => {
   //   res.send(`<h1>Heal The World!</h1> <img  src="https://www.youtube.com/embed/BWf-eARnf6U">`)
